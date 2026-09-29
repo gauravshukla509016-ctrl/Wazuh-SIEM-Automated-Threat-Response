@@ -27,7 +27,7 @@ if alert_level >= 3:
               f"📝 *Description:* {alert_description}\n\n" \
               f"⚠️ *Action Required: Check Wazuh Dashboard!*"
               
-    url = "https://telegram.org"
+    url = "https://telegram.org<YOUR_TOKEN>/sendMessage"
     payload = {"chat_id": YOUR_CHAT_ID, "text": message, "parse_mode": "Markdown"}
     
     try:

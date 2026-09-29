@@ -36,10 +36,11 @@ graph TD
     style A fill:#bf4343,stroke:#333,stroke-width:2px,color:#fff
     style B fill:#3498db,stroke:#333,stroke-width:2px,color:#fff
     style C fill:#2ecc71,stroke:#333,stroke-width:2px,color:#fff
-    style D fill:#f1c40f,stroke:#333,stroke-width:2px
+    style D fill:#f1c40f,stroke:#333,stroke-width:2px,color:#000
     style E fill:#9b59b6,stroke:#333,stroke-width:2px,color:#fff
     style H fill:#e67e22,stroke:#333,stroke-width:2px,color:#fff
 ```
+
 
 - **Offensive Machine:** Kali Linux VM (Threat Simulation & Enumeration)
 - **Defensive Endpoint:** Windows 11 Host running Wazuh Agent & Microsoft Sysmon
